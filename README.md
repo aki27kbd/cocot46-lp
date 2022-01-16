@@ -2,7 +2,7 @@
 
 ![cocot46_lp](https://user-images.githubusercontent.com/88039287/149662753-d6a955d8-d75b-4bc0-a809-d20856ab466b.jpg)
 
-cocot46-lp is a column staggered lowprofile keyboard with 46 keys, a trackball and a rotary encoder.
+cocot46-lp is a column staggered lowprofile keyboard with 46 keys, a trackball and a rotary encoder. This keyboard is compatible with choc v1 switch and 18mm x 17mm pitch keycaps.
 
 [Firmware](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46)
 
