@@ -43,6 +43,7 @@ cocot46-lpは、cocot46をベースとしつつ携帯性に特化してより小
 
 boothにて販売されているアクリルを購入するか、[こちら](https://github.com/aki27kbd/cocot46-lp/blob/master/doc/cocot46_lp_top_plate.zip?raw=true)のデータからご自身でアクリルを発注していただくことも可能です。  
 発注の際には厚さ2mmのアクリルを選択するようお願いします。
+参考までに、[Anymany](https://anymany.net/speed-order/)で上記データを発注すると約4,000円となります。
 
 |名前|数|備考|
 |---|---|---|
@@ -80,8 +81,6 @@ boothにて販売されているアクリルを購入するか、[こちら](htt
 |電池用L型ピンヘッダ（3ピン）|2個||
 |M2 スペーサー 6mm（メス―メス）|4本||
 |M2 ねじ 4mm|8本||
-
-BLE Micro Proを用いて無線接続するためには[こちら](https://github.com/aki27kbd/cocot46-lp/blob/main/doc/bmp_setup.md)の手順を参照してください。
 
 ## 組み立て
 ### 0. 部品確認
