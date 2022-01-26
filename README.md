@@ -6,7 +6,7 @@ cocot46-lp is a column staggered lowprofile keyboard with 46 keys, a trackball a
 
 [Firmware](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46)
 
-[Build Guide](https://github.com/aki27kbd/cocot46-lp/blob/main/doc/buildguide.md)
+[Build Guide](https://github.com/aki27kbd/cocot46-lp/blob/master/doc/buildguide.md)
 
 ![cocot46_lp_02](https://user-images.githubusercontent.com/88039287/149662909-3fa049e6-ae18-43c0-b3b9-cd5fc75c6064.jpg)
 
