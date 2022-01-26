@@ -46,7 +46,7 @@ boothにて販売されているアクリルを購入するか、[こちら](htt
 
 |名前|数|備考|
 |---|---|---|
-|トッププレート（アクリル）|1枚||
+|トッププレート（アクリル）|1枚|2mm|
 
 ### キット以外に必要なもの
 
@@ -88,7 +88,7 @@ BLE Micro Proを用いて無線接続するためには[こちら](https://githu
 
   まずはパーツが揃っているか確認ください。
 
-  ![cocot46_lp_bg_00](https://user-images.githubusercontent.com/88039287/150814688-0e7eba8d-c149-4315-a729-e102b3b68193.jpg)
+  ![cocot46_lp_bg_00_rev](https://user-images.githubusercontent.com/88039287/151126937-358621aa-b336-4be2-b7d4-50d404a94e23.jpg)
 
   その他上述の「キット以外に必要なもの」および「オプション部品」を揃えた上で組み立てに取り掛かってください。
 
@@ -99,7 +99,7 @@ BLE Micro Proを用いて無線接続するためには[こちら](https://githu
   予め片側にはんだを盛っておき、溶かしながらピンセットでダイオードを押さえつけると固定しやすくなります。  
   **全47箇所**はんだ付けを行ってください。
 
-  ![cocot46_lp_bg_01](https://user-images.githubusercontent.com/88039287/150814850-325ac945-e81b-4534-97aa-56cb185fc64b.JPG)
+  ![cocot46_lp_bg_01_rev](https://user-images.githubusercontent.com/88039287/151127201-75220375-0112-4793-bb07-84063347af75.JPG)
 
 ### 2. トラックボール用ピンソケット
 
@@ -109,16 +109,18 @@ BLE Micro Proを用いて無線接続するためには[こちら](https://githu
 
 ### 3. タクトスイッチ
 
-  PCB表面に、タクトスイッチ（リセットスイッチ）をはんだ付けします。1箇所のみです。
+  PCB表面に、タクトスイッチ（リセットスイッチ）をはんだ付けします。
 
   ![cocot46_lp_bg_03](https://user-images.githubusercontent.com/88039287/150815428-c562403e-48b8-4569-94d3-d77dcb016370.jpg)
 
-### 4. ProMicro
+### 4. ProMicro / BLE Micro Pro
 
   ProMicroの準備をします。写真の向きでコンスル―をはんだ付けします。
   コンスル―には向きがあるので注意してください。コンスル―の向きについては[こちら](https://yushakobo.zendesk.com/hc/ja/articles/360044233974-%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC-%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%94%E3%83%B3%E3%83%98%E3%83%83%E3%83%80-%E3%81%AE%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%96%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84)を参照ださい。マイクロUSBソケットはもげやすいので、適宜補強をしてからはんだ付けを行ってください。
 
   ![bg_04_promicro](https://user-images.githubusercontent.com/88039287/127672558-b29795b9-0192-4cca-91e0-c8eb80710140.jpg)
+
+  BLE Micro Proを用いる場合、コンスル―のはんだ付けは不要です。
 
 ### 5. ロータリーエンコーダ
 
@@ -130,6 +132,9 @@ BLE Micro Proを用いて無線接続するためには[こちら](https://githu
 
   ![cocot46_lp_bg_05_2](https://user-images.githubusercontent.com/88039287/150815830-112ec73a-da94-49f2-a506-28143c883865.jpg)
 
+  ロープロファイルロータリーエンコーダを用いる場合は裏面から見るとしたの写真のようになります。（プッシュスイッチ付きのロータリーエンコーダを用いることも可能ですが、高さが出るため推奨されません。）
+
+  ![cocot46_lp_bg_05_3](https://user-images.githubusercontent.com/88039287/151128220-2a6ba572-0184-4a7a-8435-c23c07a71242.JPG)
 
 ### 6. キースイッチ
 
@@ -166,17 +171,17 @@ BLE Micro Proを用いて無線接続するためには[こちら](https://githu
   ショットキーバリアダイオードは向きがあるので、PCBのシルクを良く確認してからはんだ付けを行ってください。  
   コンデンサはどちらの向きにつけても問題ありません。
 
-  ![cocot46_lp_bg_09_1](https://user-images.githubusercontent.com/88039287/150940996-8d033138-99c8-46dd-b015-dc02d45a265b.jpg)
+  ![cocot46_lp_bg_09_1_rev](https://user-images.githubusercontent.com/88039287/151132868-40ce0d01-8016-4bde-86aa-1cbefa7bc85b.jpg)
 
   同じくPCB裏面の1箇所をジャンパーさせます。
-  ![cocot46_lp_bg_09_2](https://user-images.githubusercontent.com/88039287/150941276-67185f1d-d8dd-47bb-a375-e8291e64f91b.jpg)
+  ![cocot46_lp_bg_09_2_rev](https://user-images.githubusercontent.com/88039287/151132919-1b2efc9c-3545-439e-a313-f1ccf41323cf.jpg)
 
 
 ### 10. 組み立て
 
   4.5mmスペーサーと4mmネジでトッププレート表面から8箇所ねじ止めを行います。
 
-  ![cocot46_lp_bg_10_1](https://user-images.githubusercontent.com/88039287/150941990-f7f6c764-6c1a-4761-b42a-d4e13f381c5b.jpg)
+  ![cocot46_lp_bg_10_1_rev](https://user-images.githubusercontent.com/88039287/151133528-630fddd4-10a9-4c06-bb7a-73707107037c.jpg)
 
   8で組み立てたトラックボールユニットをPCBのL型ピンソケットに差し込みます。ケーブルがPCBの溝部分におさまるように折りたたみます。
 
@@ -186,6 +191,10 @@ BLE Micro Proを用いて無線接続するためには[こちら](https://githu
 
   ![cocot46_lp_bg_10_3](https://user-images.githubusercontent.com/88039287/150942398-e0f602d1-51c0-4585-954a-79349a622c04.jpg)
 
+  BLE Micro Proの場合、12ピンコンスル―を写真のように通してください。
+
+  ![cocot46_lp_bg_10_6_bmp_rev](https://user-images.githubusercontent.com/88039287/151134459-6b6ae404-f12c-42fe-b8fb-9113084fa8be.jpg)
+
   ミドルプレートの保護紙をはがし、PCB裏面に重ねます。  
   リセットスイッチの足やコンデンサの位置が干渉しないように向きに注意してください。
 
@@ -193,7 +202,7 @@ BLE Micro Proを用いて無線接続するためには[こちら](https://githu
 
   ミドルプレートにボトムプレートを重ね、4mmネジで8箇所ねじ止めをします。
 
-  ![cocot46_lp_bg_10_5](https://user-images.githubusercontent.com/88039287/150942956-4837d751-f395-4bdd-bbda-583e2b99c17b.jpg)
+  ![cocot46_lp_bg_10_5_rev](https://user-images.githubusercontent.com/88039287/151165901-e6e5c017-835f-4644-a855-4b4f68e0ce85.jpg)
 
   トラックボールカバープレートの固定のため、PCB上に7mmスペーサーを立て、ボトムプレート側から8mmネジで固定します。
 
@@ -211,33 +220,43 @@ BLE Micro Proを用いて無線接続するためには[こちら](https://githu
 
   ![cocot46_lp_bg_10_9](https://user-images.githubusercontent.com/88039287/150943634-fee76eb2-479d-44df-a9be-66271fd34549.jpg)
 
+### 11. 無線化（オプション）
+
+  下記パーツが揃っていることを確認してください。
+
+  ![cocot46_lp_bg_11_1_rev](https://user-images.githubusercontent.com/88039287/151170785-1f6c086d-bfd1-4f4a-9236-6e33dbf20496.jpg)
+
+  単四電池ホルダーを電池基板に通し、裏側からはんだ付けを行います。裏側のピンは本体と干渉するので、根本でカットしてください。はんだも盛り過ぎず、出っ張りを最小限とするよう意識すると良いです。
+
+  ![cocot46_lp_bg_11_2](https://user-images.githubusercontent.com/88039287/151171050-678c2596-725c-4a84-8a0b-77e0daeb6256.JPG)
+
+  電池用ピンヘッダを電池基板にはんだ付けします。
+
+  ![cocot46_lp_bg_11_3](https://user-images.githubusercontent.com/88039287/151171705-6e8ef9cd-880b-451e-a0ad-0adbc028aec7.JPG)
+
+  電池用ピンソケットを基板の左右に固定します。表側からピンソケットを差し、裏面からはんだ付けを行います。はんだ付けを行う際はボトムプレート・ミドルプレートを外した状態で行ってください。
+
+  ![cocot46_lp_bg_11_4](https://user-images.githubusercontent.com/88039287/151173851-0c0f9f9b-5d59-4924-b8cc-56dc3dea0f08.JPG)
+
+  6mmスペーサーをPCB裏側からねじ止めします。電池基板に取り付けたピンヘッダをピンソケットに差し込みます。
+
+  ![cocot46_lp_bg_11_5](https://user-images.githubusercontent.com/88039287/151176307-f00ad4e8-c2a5-4ec8-a0fa-af2dfc58e60d.JPG)
+
+  電池カバープレートをねじ止めし、単四電池を入れれば完成です。
+
+  ![cocot46_lp_bg_11_6](https://user-images.githubusercontent.com/88039287/151176656-036ee8f1-8592-4f93-9be0-642318d22ab4.jpg)
 
 ## ファームウェア
 
 ***ファームウェアはcocot46と共通です。***
-トラックボールを操作する手によって、2種類ファームウェアを用意しております。
 
-[右手用](https://github.com/aki27kbd/cocot46/blob/main/firmware/cocot46_trackball_right.zip?raw=true)  
-[左手用](https://github.com/aki27kbd/cocot46/blob/main/firmware/cocot46_trackball_left.zip?raw=true)  
-[右手用v2](https://github.com/aki27kbd/cocot46/blob/main/firmware/cocot46_trackball_v2.zip?raw=true)
+### ProMicro
 
-[REMAP](https://remap-keys.app/catalog/rZnKrpVyZLRcMqKgEM7Z/firmware)からファームウェアのダウンロードおよびProMicroへの書き込みを行うことができます。キーマップは[こちら](https://remap-keys.app/configure)から更新可能です。  
-トラックボール、LED含めて上記.hexファイルで確認いただけます。
+ProMicroを用いる場合は[こちら](https://github.com/aki27kbd/cocot46/blob/main/doc/buildguide.md#%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2)を参照してください。
 
-（.hexファイルをQMK ToolboxなどでProMicroに書き込む従来の方法でも問題ありません。）
+### BLE Micro Pro
 
-
-![remap](https://user-images.githubusercontent.com/88039287/130786498-4202abef-06bf-4c86-a5e6-c8a95990caf2.jpg)
-
-組み立て段階で動作確認をする際も、REMAPのTest Matrix Modeを使うと便利です。
-
-ソースコードは[こちら](https://github.com/aki27kbd/qmk_firmware/tree/master/keyboards/cocot46)を参照ください。
-
-また、VIA用のjsonファイルは[こちら](https://github.com/aki27kbd/cocot46/blob/main/firmware/cocot46_via.json)を参照ください。
-
-## 無線化
-
-BLE Micro Proを用いて無線接続するためには[こちら](https://github.com/aki27kbd/cocot46/blob/main/doc/bmp_setup.md)の手順を参照してください。
+BLE Micro Proを用いて無線化する場合は[こちら](https://github.com/aki27kbd/cocot46/blob/main/doc/bmp_setup.md#%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2)を参照してください。
 
 ## 終わりに
 何かトラブルがあれば[Twitterアカウント](https://twitter.com/aki27kbd)までご連絡ください。
