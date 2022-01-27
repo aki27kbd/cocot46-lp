@@ -245,6 +245,11 @@ boothにて販売されているアクリルを購入するか、[こちら](htt
 
   ![cocot46_lp_bg_11_6](https://user-images.githubusercontent.com/88039287/151176656-036ee8f1-8592-4f93-9be0-642318d22ab4.jpg)
 
+  BLE Micro Pro横のスライドスイッチ×2電源廻りの制御が可能です。  
+  無線接続を行う場合は両方のスライドスイッチを内側にして使用してください。
+
+  ![cocot46_lp_bg_11_7_rev](https://user-images.githubusercontent.com/88039287/151319234-54ed1400-8f3e-4ea8-9201-aef4f9e67fbe.jpg)
+
 ## ファームウェア
 
 ***ファームウェアはcocot46と共通です。***
